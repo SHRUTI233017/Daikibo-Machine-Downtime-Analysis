@@ -18,12 +18,12 @@ The goal is simple:
 
 ## 🌍 Factory Locations
 
-| Factory  | City     | Country |
-| -------- | -------- | ------- |
-| Meiyo    | Tokyo    | Japan   |
-| Seiko    | Osaka    | Japan   |
-| Berlin   | Berlin   | Germany |
-| Shenzhen | Shenzhen | China   |
+                                        | Factory  | City     | Country |
+                                        | -------- | -------- | ------- |
+                                        | Meiyo    | Tokyo    | Japan   |
+                                        | Seiko    | Osaka    | Japan   |
+                                        | Berlin   | Berlin   | Germany |
+                                        | Shenzhen | Shenzhen | China   |
 
 ---
 
