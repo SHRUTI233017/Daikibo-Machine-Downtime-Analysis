@@ -50,10 +50,10 @@ The goal is simple:
 
 ---
 
-## 🧮 Calculated Measure: **Unhealthy**
+## 🧮 Calculated Measure: 
 
 **Formula:**
-
+**Unhealthy**
 ```
 IF [Status] = "unhealthy" THEN 10 ELSE 0 END
 ```
