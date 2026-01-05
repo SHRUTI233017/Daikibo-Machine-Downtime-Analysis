@@ -84,31 +84,34 @@ IF [Status] = "unhealthy" THEN 10 ELSE 0 END
 
 * Highlights machines responsible for frequent failures
 
----
+<img width="1075" height="418" alt="Screenshot 2026-01-06 003804" src="https://github.com/user-attachments/assets/4081c1e0-9d1e-4ab1-a852-8929e03cddb2" />
 
 
-## 🔍 Key Insights
+🔍 Key Insights
 
-🔴  Daikibo Factory Seiko (Osaka) recorded the highest downtime
-
-🔴  Laser Welder machines failed most frequently
-
+🔴 Daikibo Factory Seiko (Osaka) recorded the highest downtime
+🔴 Laser Welder machines failed most frequently
 🔴 Indicates maintenance and process optimization gaps
 
----
+💡 Business Impact
 
-## 💡 Business Impact
-
-✅ Found the factory with the most machine failures.
-
+✅ Pinpointed exact failure location
 ✅ Identified high-risk machines
-
 ✅ Enabled targeted maintenance planning
-
 ✅ Reduced guesswork with data-backed insights
 
----
 
-## 🏁 Final Outcome
+
+📁 Repository Structure
+📦 Daikibo-Downtime-Analysis
+├── 📂 Data
+│   └── daikibo-telemetry-data.json
+├── 📂 Tableau_Workbook
+│   └── DaiKibo_Analysis.twbx
+├── 📂 Screenshots
+│   └── Dashboard_Output.png
+└── README.md
+
+🏁 Final Outcome
 
 This project demonstrates how machine telemetry + visualization can uncover operational inefficiencies and guide data-driven manufacturing decisions.
