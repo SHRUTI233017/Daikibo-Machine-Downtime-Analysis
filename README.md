@@ -2,7 +2,7 @@
 
 ### *Turning Raw Telemetry into Actionable Insights*
 
-📊 **Tableau| Manufacturing Analytics**
+📊 **Tableau | Manufacturing Analytics**
 
 ---
 
@@ -24,7 +24,6 @@ The goal is simple:
 | Seiko    | Osaka    | Japan   |
 | Berlin   | Berlin   | Germany |
 | Shenzhen | Shenzhen | China   |
-
 
 ---
 
@@ -51,7 +50,7 @@ The goal is simple:
 
 ---
 
-### 🧮 Calculated Measure: **Unhealthy**
+## 🧮 Calculated Measure: **Unhealthy**
 
 **Formula:**
 
@@ -74,11 +73,12 @@ IF [Status] = "unhealthy" THEN 10 ELSE 0 END
 **Chart Type:** Bar Chart
 
 * Identifies which factory suffers the most downtime
-*  <img width="992" height="756" alt="Screenshot 2026-01-06 000353" src="https://github.com/user-attachments/assets/2c3f684a-340d-4167-a63d-33122010691c" />
 
-```
+<img width="992" height="756" alt="Screenshot 2026-01-06 000353" src="https://github.com/user-attachments/assets/2c3f684a-340d-4167-a63d-33122010691c" />
 
-### ⚙️ Down Time per Device Type 
+---
+
+### ⚙️ Down Time per Device Type
 
 **Chart Type:** Bar Chart
 
@@ -88,8 +88,7 @@ IF [Status] = "unhealthy" THEN 10 ELSE 0 END
 
 ---
 
-
-🔍 Key Insights
+## 🔍 Key Insights
 
 🔴 Daikibo Factory Seiko (Osaka) recorded the highest downtime
 🔴 Laser Welder machines failed most frequently
@@ -97,7 +96,7 @@ IF [Status] = "unhealthy" THEN 10 ELSE 0 END
 
 ---
 
-💡 Business Impact
+## 💡 Business Impact
 
 ✅ Pinpointed exact failure location
 ✅ Identified high-risk machines
@@ -106,7 +105,9 @@ IF [Status] = "unhealthy" THEN 10 ELSE 0 END
 
 ---
 
-📁 Repository Structure
+## 📁 Repository Structure
+
+```
 📦 Daikibo-Downtime-Analysis
 ├── 📂 Data
 │   └── daikibo-telemetry-data.json
@@ -115,8 +116,11 @@ IF [Status] = "unhealthy" THEN 10 ELSE 0 END
 ├── 📂 Screenshots
 │   └── Dashboard_Output.png
 └── README.md
+```
 
 ---
-🏁 Final Outcome
 
-This project demonstrates how machine telemetry + visualization can uncover operational inefficiencies and guide data-driven manufacturing decisions.
+## 🏁 Final Outcome
+
+This project demonstrates how **machine telemetry and visualization** can uncover operational inefficiencies and guide **data-driven manufacturing decisions**.
+
