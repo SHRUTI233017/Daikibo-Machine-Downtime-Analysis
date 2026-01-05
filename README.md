@@ -1,4 +1,4 @@
-# 🚀 Daikibo Machine Downtime Analysis
+# 🏭 Daikibo Machine Downtime Analysis
 
 ### *Turning Raw Telemetry into Actionable Insights*
 
@@ -69,15 +69,16 @@ IF [Status] = "unhealthy" THEN 10 ELSE 0 END
 
 ## 📊 Visualizations
 
-### 📌 Down Time per Factory
+### ⚙️ Down Time per Factory
 
 **Chart Type:** Bar Chart
 
 * Identifies which factory suffers the most downtime
 *  <img width="992" height="756" alt="Screenshot 2026-01-06 000353" src="https://github.com/user-attachments/assets/2c3f684a-340d-4167-a63d-33122010691c" />
 
+```
 
-### 📌 Down Time per Device Type
+### ⚙️ Down Time per Device Type
 
 **Chart Type:** Bar Chart
 
@@ -91,7 +92,9 @@ IF [Status] = "unhealthy" THEN 10 ELSE 0 END
 ## 🔍 Key Insights
 
 🔴 **Daikibo Factory Seiko (Osaka)** recorded the **highest downtime**
+
 🔴 **Laser Welder machines** failed most frequently
+
 🔴 Indicates maintenance and process optimization gaps
 
 ---
@@ -99,8 +102,11 @@ IF [Status] = "unhealthy" THEN 10 ELSE 0 END
 ## 💡 Business Impact
 
 ✅ Found the factory with the most machine failures.
+
 ✅ Identified high-risk machines
+
 ✅ Enabled targeted maintenance planning
+
 ✅ Reduced guesswork with data-backed insights
 
 ---
