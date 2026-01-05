@@ -91,16 +91,22 @@ IF [Status] = "unhealthy" THEN 10 ELSE 0 END
 ## 🔍 Key Insights
 
 🔴 Daikibo Factory Seiko (Osaka) recorded the highest downtime
+
 🔴 Laser Welder machines failed most frequently
+
 🔴 Indicates maintenance and process optimization gaps
 
 ---
 
 ## 💡 Business Impact
 
-✅ Pinpointed exact failure location
+✅ Found the factory with the most machine failures.
+
+
 ✅ Identified high-risk machines
+
 ✅ Enabled targeted maintenance planning
+
 ✅ Reduced guesswork with data-backed insights
 
 ---
