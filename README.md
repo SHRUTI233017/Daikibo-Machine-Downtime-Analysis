@@ -83,7 +83,8 @@ IF [Status] = "unhealthy" THEN 10 ELSE 0 END
 **Chart Type:** Bar Chart
 
 * Highlights machines responsible for frequent failures
-*<img width="935" height="778" alt="Screenshot 2026-01-06 000318" src="https://github.com/user-attachments/assets/72d01180-75cd-4e57-8922-d3c13efd71db" />
+*<img width="1075" height="432" alt="Screenshot 2026-01-06 003050" src="https://github.com/user-attachments/assets/c16038b6-fab3-46e1-a8c1-8a9a6aa51987" />
+
 
 
 ---
