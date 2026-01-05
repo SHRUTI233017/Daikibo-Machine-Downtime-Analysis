@@ -83,8 +83,6 @@ IF [Status] = "unhealthy" THEN 10 ELSE 0 END
 **Chart Type:** Bar Chart
 
 * Highlights machines responsible for frequent failures
-<img src="Screenshots/DownTime_Per_Device_Type.png" width="100%" />
-
 
 ---
 
