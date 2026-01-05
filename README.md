@@ -74,7 +74,7 @@ IF [Status] = "unhealthy" THEN 10 ELSE 0 END
 **Chart Type:** Bar Chart
 
 * Identifies which factory suffers the most downtime
-* <img width="935" height="778" alt="Screenshot 2026-01-06 000318" src="https://github.com/user-attachments/assets/aecb24bb-dc06-476b-bdf5-5b7f6705973d" />
+*  <img width="992" height="756" alt="Screenshot 2026-01-06 000353" src="https://github.com/user-attachments/assets/2c3f684a-340d-4167-a63d-33122010691c" />
 
 
 ### 📌 Down Time per Device Type
@@ -82,7 +82,7 @@ IF [Status] = "unhealthy" THEN 10 ELSE 0 END
 **Chart Type:** Bar Chart
 
 * Highlights machines responsible for frequent failures
-* <img width="992" height="756" alt="Screenshot 2026-01-06 000353" src="https://github.com/user-attachments/assets/2c3f684a-340d-4167-a63d-33122010691c" />
+*<img width="935" height="778" alt="Screenshot 2026-01-06 000318" src="https://github.com/user-attachments/assets/aecb24bb-dc06-476b-bdf5-5b7f6705973d" />
 
 
 ---
