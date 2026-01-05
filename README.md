@@ -51,14 +51,19 @@ The goal is simple:
 
 ---
 
-## 🧮 Calculated Measure
+### 🧮 Calculated Measure: **Unhealthy**
 
-### 🔢 `Unhealthy`
+**Formula:**
+
+```
+IF [Status] = "unhealthy" THEN 10 ELSE 0 END
+```
+
+**Explanation:**
 
 * Assigns **10 minutes of downtime** for each `Unhealthy` status
-* Represents downtime since telemetry is sent every 10 minutes
-
-This converts raw status data into **meaningful downtime metrics**.
+* Based on telemetry messages sent every **10 minutes**
+* Converts raw machine status data into **measurable downtime**
 
 ---
 
@@ -103,7 +108,3 @@ This converts raw status data into **meaningful downtime metrics**.
 ## 🏁 Final Outcome
 
 This project demonstrates how **machine telemetry + visualization** can uncover operational inefficiencies and guide **data-driven manufacturing decisions**.
-
-
-
-Just say the word 💬
