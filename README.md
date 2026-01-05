@@ -88,6 +88,7 @@ IF [Status] = "unhealthy" THEN 10 ELSE 0 END
 
 ---
 
+
 🔍 Key Insights
 
 🔴 Daikibo Factory Seiko (Osaka) recorded the highest downtime
@@ -114,6 +115,7 @@ IF [Status] = "unhealthy" THEN 10 ELSE 0 END
 ├── 📂 Screenshots
 │   └── Dashboard_Output.png
 └── README.md
+
 ---
 🏁 Final Outcome
 
