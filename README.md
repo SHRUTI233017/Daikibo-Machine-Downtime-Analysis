@@ -83,8 +83,7 @@ IF [Status] = "unhealthy" THEN 10 ELSE 0 END
 **Chart Type:** Bar Chart
 
 * Highlights machines responsible for frequent failures
-*<img width="1075" height="432" alt="Screenshot 2026-01-06 003050" src="https://github.com/user-attachments/assets/c16038b6-fab3-46e1-a8c1-8a9a6aa51987" />
-
+<img src="Screenshots/DownTime_Per_Device_Type.png" width="100%" />
 
 
 ---
@@ -92,9 +91,9 @@ IF [Status] = "unhealthy" THEN 10 ELSE 0 END
 
 ## 🔍 Key Insights
 
-🔴 **Daikibo Factory Seiko (Osaka)** recorded the **highest downtime**
+🔴  Daikibo Factory Seiko (Osaka) recorded the highest downtime
 
-🔴 **Laser Welder machines** failed most frequently
+🔴  Laser Welder machines failed most frequently
 
 🔴 Indicates maintenance and process optimization gaps
 
@@ -114,4 +113,4 @@ IF [Status] = "unhealthy" THEN 10 ELSE 0 END
 
 ## 🏁 Final Outcome
 
-This project demonstrates how **machine telemetry + visualization** can uncover operational inefficiencies and guide **data-driven manufacturing decisions**.
+This project demonstrates how machine telemetry + visualization can uncover operational inefficiencies and guide data-driven manufacturing decisions.
