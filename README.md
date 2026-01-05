@@ -31,6 +31,7 @@ The goal is simple:
 ## 🎯 Business Questions
 
 ✔ Which factory experienced the **highest machine downtime**?
+
 ✔ Which **machine types** broke down most frequently in that factory?
 
 ---
